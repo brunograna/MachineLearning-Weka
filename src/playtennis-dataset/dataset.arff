@@ -1,0 +1,23 @@
+@relation dataset
+
+@attribute clima {Ensolarado,Nublado,Chuva}
+@attribute temperatura {Quente,Moderada,Fria}
+@attribute umidade {Alta,Normal}
+@attribute vento {Forte,Fraco}
+@attribute jogar {Sim,Nao}
+
+@data
+Ensolarado,Quente,Alta,Fraco,Nao
+Ensolarado,Quente,Alta,Forte,Nao
+Nublado,Quente,Alta,Fraco,Sim
+Chuva,Moderada,Alta,Fraco,Sim
+Chuva,Fria,Normal,Fraco,Sim
+Chuva,Fria,Normal,Forte,Nao
+Nublado,Fria,Normal,Forte,Sim
+Ensolarado,Moderada,Alta,Fraco,Nao
+Ensolarado,Fria,Normal,Fraco,Sim
+Chuva,Moderada,Normal,Forte,Sim
+Ensolarado,Moderada,Normal,Forte,Sim
+Nublado,Moderada,Alta,Forte,Sim
+Nublado,Quente,Normal,Fraco,Sim
+Chuva,Moderada,Alta,Forte,Nao
